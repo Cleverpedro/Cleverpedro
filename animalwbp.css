@@ -1,0 +1,185 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #5a5757;
+    color: #cf6b6b;
+    background-image: linear-gradient(to bottom, #ffffff, #cf6b6b);
+}
+
+header {
+    background-color: gray;
+    color: #FFFFFF;
+    background-image: url(paw.jpg);
+    background-size: 60px 50px;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-top: 30px;
+    padding-left: 3em;
+    text-align: center;
+    border: 3px solid black
+}
+
+nav {
+    font-weight: bold;
+    font-size: 1.5em;
+    background-color: #cf6b6b;
+    float: right;
+    width: 316px;
+    height: 480px;
+    font-weight: bold;
+    font-size: 120%;
+    padding: 1.5em;
+    background-image: linear-gradient(to bottom, #ffffff, #cf6b6b);
+}
+
+
+h2 {
+    color: #5c5e61;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+dt {
+    color: #5c5e61;
+}
+
+h1 {
+    margin-bottom: 0;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+.resort {
+    color: #194ae9;
+    font-weight: bold;
+
+}
+
+nav a {
+    
+        width: 100px;
+        height: 100px;
+        background: rgb(214, 174, 174);
+       
+      
+    
+}
+
+ul {
+    list-style-image: url(marker.gif);
+}
+
+footer {
+    font-size: 75%;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#contact {
+    font-size: .90em;
+
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    vertical-align: middle;
+    border: 3px solid black
+}
+
+p {
+    display: inline;
+}
+
+.wrapper {
+    background-color: #FFFFFF;
+    border-width: 6px;
+    border-style: double;
+    border-color: #5c5e61;
+    background-image: linear-gradient(to bottom, #ffffff, #5c5e61);
+}
+
+th,
+td {
+    border: 1px solid black
+}
+
+table {
+    border-collapse: collapse;
+}
+
+main {
+    background-color: #ffffff;
+    margin-left: 190px;
+    padding: 1px 20px 20px 30px;
+    overflow: auto;
+    display: block;
+}
+
+#doghero {
+    margin-left: 190px;
+    height: 300px;
+    background-image: url(doghomepg.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat
+}
+
+#hourhero {
+    margin-left: 190px;
+    height: 300px;
+    width: 400px;
+    background-image: url(horse.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat
+}
+
+#signuphero {
+    margin-left: 190px;
+    height: 300px;
+    width: 400px;
+    background-image: url(spindog.gif);
+    background-size: 100% 100%;
+    background-repeat: no-repeat
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    font-size: 1.2em;
+}
+
+nav a:link {
+    color: #5c5e61;
+    text-decoration: none;
+   
+
+}
+
+nav a:visited {
+    color: #5c5e61;
+}
+
+nav a:hover {
+    color: #cf6b6b;
+    background-color: black;
+    transition: background-color 3s ease-out; 
+}
+input,
+textarea {
+    display: block;
+    margin-bottom: 20px;
+
+}
+
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 140px;
+    padding-right: 5px;
+}
+
+input[type="submit"] {
+
+    width: 9em;
+    margin-left: 140px;
+}
